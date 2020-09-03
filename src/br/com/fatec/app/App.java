@@ -20,7 +20,6 @@ public static void main(String[] args) {
 
 		int opcao = 1;
 		double tempoFinal;
-		double tempoInicial;
 		double tempoTotal;
 		long tempoAgora;
 
@@ -36,12 +35,10 @@ public static void main(String[] args) {
 					
           			tempoAgora = data.getTime();
 					v = new Passeio(tempoAgora, "Passeio");
-					cv = new ValorDiaria(2.0);
 
 					// informando o tempo a hora/data de entrada do veiculo
 					tempoFinal = tempo.anotarSaída(tempoAgora);
-					tempoInicial = tempoAgora;
-					tempoTotal = tempoFinal - tempoInicial;
+					tempoTotal = tempoFinal - tempoAgora;
 					
 					conta = new ContaEstacionamento();
 					conta.veiculo = v;
@@ -60,12 +57,10 @@ public static void main(String[] args) {
 					
 					tempoAgora = data.getTime();
 					v = new Carga(tempoAgora, "Carga");
-					cv = new ValorDiaria(4.0);
 					
 					// informando o tempo a hora/data de entrada do veiculo
 					tempoFinal = tempo.anotarSaída(tempoAgora);
-					tempoInicial = tempoAgora;
-					tempoTotal = tempoFinal - tempoInicial;
+					tempoTotal = tempoFinal - tempoAgora;
 					
 					conta = new ContaEstacionamento();
 					conta.veiculo = v;

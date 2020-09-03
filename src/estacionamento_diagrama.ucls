@@ -3,7 +3,7 @@
   realizations="true" associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
   <class id="1" language="java" name="br.com.fatec.control.CalculoValor" project="Estacionamento" 
     file="/Estacionamento/src/br/com/fatec/control/CalculoValor.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="150" width="198" x="789" y="319"/>    
+    <position height="150" width="198" x="646" y="368"/>    
     <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -12,7 +12,7 @@
   </class>  
   <class id="2" language="java" name="br.com.fatec.model.Carga" project="Estacionamento" 
     file="/Estacionamento/src/br/com/fatec/model/Carga.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="85" width="114" x="238" y="285"/>    
+    <position height="85" width="114" x="97" y="321"/>    
     <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -21,7 +21,7 @@
   </class>  
   <class id="3" language="java" name="br.com.fatec.model.ContaEstacionamento" project="Estacionamento" 
     file="/Estacionamento/src/br/com/fatec/model/ContaEstacionamento.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="156" width="167" x="626" y="-2"/>    
+    <position height="156" width="167" x="485" y="158"/>    
     <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -30,7 +30,7 @@
   </class>  
   <class id="4" language="java" name="br.com.fatec.model.Passeio" project="Estacionamento" 
     file="/Estacionamento/src/br/com/fatec/model/Passeio.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="83" width="135" x="238" y="422"/>    
+    <position height="83" width="135" x="95" y="471"/>    
     <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -39,7 +39,7 @@
   </class>  
   <class id="5" language="java" name="br.com.fatec.model.ValorDiaria" project="Estacionamento" 
     file="/Estacionamento/src/br/com/fatec/model/ValorDiaria.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="671" y="661"/>    
+    <position height="-1" width="-1" x="533" y="660"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -48,7 +48,7 @@
   </class>  
   <class id="6" language="java" name="br.com.fatec.model.ValorHora" project="Estacionamento" 
     file="/Estacionamento/src/br/com/fatec/model/ValorHora.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="1102" y="658"/>    
+    <position height="-1" width="-1" x="1007" y="657"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -57,7 +57,7 @@
   </class>  
   <class id="7" language="java" name="br.com.fatec.model.ValorMensal" project="Estacionamento" 
     file="/Estacionamento/src/br/com/fatec/model/ValorMensal.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="120" width="191" x="795" y="603"/>    
+    <position height="120" width="191" x="679" y="600"/>    
     <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -66,55 +66,44 @@
   </class>  
   <class id="8" language="java" name="br.com.fatec.model.Veiculo" project="Estacionamento" 
     file="/Estacionamento/src/br/com/fatec/model/Veiculo.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="150" width="132" x="506" y="321"/>    
+    <position height="150" width="132" x="363" y="370"/>    
     <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="9" language="java" name="br.com.fatec.model.Tempo" project="Estacionamento" 
-    file="/Estacionamento/src/br/com/fatec/model/Tempo.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="144" width="175" x="267" y="542"/>    
-    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="10" language="java" name="br.com.fatec.model.Verificador" project="Estacionamento" 
+  <class id="9" language="java" name="br.com.fatec.model.Verificador" project="Estacionamento" 
     file="/Estacionamento/src/br/com/fatec/model/Verificador.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="144" width="229" x="940" y="78"/>    
+    <position height="144" width="229" x="1002" y="358"/>    
     <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="11" language="java" name="br.com.fatec.control.Leitor" project="Estacionamento" 
-    file="/Estacionamento/src/br/com/fatec/control/Leitor.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="110" y="620"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="12" language="java" name="br.com.fatec.control.Menu" project="Estacionamento" 
-    file="/Estacionamento/src/br/com/fatec/control/Menu.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="110" y="349"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <association id="13">    
-    <end type="SOURCE" refId="12" navigable="false">      
-      <attribute id="14" name="leitor"/>      
-      <multiplicity id="15" minimum="0" maximum="1"/>    
+  <association id="10">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="11" name="calculo">        
+        <position height="0" width="0" x="-190" y="46"/>      
+      </attribute>      
+      <multiplicity id="12" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-190" y="46"/>      
+      </multiplicity>    
     </end>    
-    <end type="TARGET" refId="11" navigable="true"/>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="13">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="14" name="veiculo">        
+        <position height="0" width="0" x="-139" y="53"/>      
+      </attribute>      
+      <multiplicity id="15" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-139" y="53"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
   <generalization id="16">    
@@ -122,58 +111,30 @@
     <end type="TARGET" refId="8"/>  
   </generalization>  
   <generalization id="17">    
-    <end type="SOURCE" refId="5"/>    
-    <end type="TARGET" refId="1"/>  
-  </generalization>  
-  <association id="18">    
-    <end type="SOURCE" refId="3" navigable="false">      
-      <attribute id="19" name="calculo">        
-        <position height="0" width="0" x="-47" y="-3"/>      
-      </attribute>      
-      <multiplicity id="20" minimum="0" maximum="1">        
-        <position height="0" width="0" x="-47" y="-3"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="1" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="21">    
-    <end type="SOURCE" refId="3" navigable="false">      
-      <attribute id="22" name="veiculo">        
-        <position height="0" width="0" x="4" y="4"/>      
-      </attribute>      
-      <multiplicity id="23" minimum="0" maximum="1">        
-        <position height="0" width="0" x="4" y="4"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="8" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="24">    
-    <end type="SOURCE" refId="9" navigable="false">      
-      <attribute id="25" name="leitor"/>      
-      <multiplicity id="26" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="11" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <generalization id="27">    
-    <end type="SOURCE" refId="6"/>    
-    <end type="TARGET" refId="1"/>  
-  </generalization>  
-  <association id="28">    
-    <end type="SOURCE" refId="10" navigable="false">      
-      <attribute id="29" name="cv"/>      
-      <multiplicity id="30" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="1" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <generalization id="31">    
     <end type="SOURCE" refId="7"/>    
     <end type="TARGET" refId="1"/>  
   </generalization>  
-  <generalization id="32">    
+  <generalization id="18">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="19">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <association id="20">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="21" name="cv">        
+        <position height="0" width="0" x="-143" y="49"/>      
+      </attribute>      
+      <multiplicity id="22" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-143" y="49"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="23">    
     <end type="SOURCE" refId="2"/>    
     <end type="TARGET" refId="8"/>  
   </generalization>  

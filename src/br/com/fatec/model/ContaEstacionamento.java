@@ -20,7 +20,7 @@ public class ContaEstacionamento {
 	public void imprimeConta(Veiculo veiculo, double tempoTotal) {
     
 	  long ms = (long) tempoTotal;
-  	String tempo = String.format("%2d", (ms / 3600000) + 4);
+  	  String tempo = String.format("%2d", (ms / 3600000) + 4);
 
 	  double valor = veiculo.valor;
 

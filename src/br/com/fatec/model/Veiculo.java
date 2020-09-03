@@ -3,7 +3,7 @@ package br.com.fatec.model;
 public abstract class Veiculo {
 	
 	public long tempo;
-	public String tipo = "";
+	public String tipo;
 	public double valor;
 	
 	
